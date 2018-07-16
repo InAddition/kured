@@ -137,3 +137,45 @@ div.wcppec-checkout-buttons__separator {
 a.checkout-button.button.alt.wc-forward {
     display: none;
 }
+a.shipping-calculator-button {
+    color: $primary;
+}
+.wholesale_international a.checkout-button.button.alt.wc-forward {
+    display: block !important;
+}
+.wholesale_international .shipping-calculator-button {
+    display: none !important;
+}
+p.cart-empty {
+    margin-bottom: em(25);
+}
+.woocommerce .product-info h2 {
+    margin-bottom: 0;
+}
+.wjecf-select-free-products {
+    padding: em(25);
+}
+.wjecf-select-free-products img {
+    display: none;
+}
+.wjecf-select-free-products label {
+    padding-left: 15px;
+}
+.wjecf-select-free-products h3 {
+    margin-bottom: 25px !important;
+    text-align: left;
+    margin-top: 30px;
+    @media (max-width: $bp-tablet) {
+        margin-top: 30px;
+    }
+}
+ul.wjecf-cols {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ul.wjecf-cols > li {
+    padding-left: 0 !important;
+    width: 100% !important;
+    text-align: left;
+    display: block;
+}
